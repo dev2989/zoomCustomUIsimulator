@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00922F525948A300077776A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00922F425948A300077776A /* AppDelegate.swift */; };
+		A00922F925948A300077776A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00922F825948A300077776A /* ViewController.swift */; };
+		A00922FC25948A300077776A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00922FA25948A300077776A /* Main.storyboard */; };
+		A00922FE25948A310077776A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00922FD25948A310077776A /* Assets.xcassets */; };
+		A009230125948A310077776A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00922FF25948A310077776A /* LaunchScreen.storyboard */; };
+		A009230D25948D3B0077776A /* ZjoinmeetingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A009230C25948D3B0077776A /* ZjoinmeetingVC.swift */; };
+		A009231025948D490077776A /* ZstartmeetingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A009230F25948D490077776A /* ZstartmeetingVC.swift */; };
+		A0092315259491600077776A /* ZmeetingroomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0092314259491600077776A /* ZmeetingroomVC.swift */; };
+		A009231A2594952E0077776A /* GenralSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00923192594952E0077776A /* GenralSetting.swift */; };
+		A009233C2594A01C0077776A /* ZCustomUIjoinmeetingRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A009233B2594A01C0077776A /* ZCustomUIjoinmeetingRoomVC.swift */; };
+		A009233E2594A0340077776A /* ZDefaultUIjoinmeetingRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A009233D2594A0340077776A /* ZDefaultUIjoinmeetingRoomVC.swift */; };
+		A00923412594A1880077776A /* toastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00923402594A1880077776A /* toastVC.swift */; };
+		A00923432594BD6A0077776A /* ZcustomUIClientSDKVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00923422594BD6A0077776A /* ZcustomUIClientSDKVC.swift */; };
+		A00923512594C2590077776A /* ZDefaultStartMeetingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00923502594C2590077776A /* ZDefaultStartMeetingVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A009232D25949AEA0077776A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A00922F125948A300077776A /* zoomcustomUidemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zoomcustomUidemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00922F425948A300077776A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00922F825948A300077776A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A00922FB25948A300077776A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00922FD25948A310077776A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A009230025948A310077776A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A009230225948A310077776A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A009230C25948D3B0077776A /* ZjoinmeetingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZjoinmeetingVC.swift; sourceTree = "<group>"; };
+		A009230F25948D490077776A /* ZstartmeetingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZstartmeetingVC.swift; sourceTree = "<group>"; };
+		A0092314259491600077776A /* ZmeetingroomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZmeetingroomVC.swift; sourceTree = "<group>"; };
+		A00923192594952E0077776A /* GenralSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenralSetting.swift; sourceTree = "<group>"; };
+		A009233B2594A01C0077776A /* ZCustomUIjoinmeetingRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCustomUIjoinmeetingRoomVC.swift; sourceTree = "<group>"; };
+		A009233D2594A0340077776A /* ZDefaultUIjoinmeetingRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDefaultUIjoinmeetingRoomVC.swift; sourceTree = "<group>"; };
+		A00923402594A1880077776A /* toastVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toastVC.swift; sourceTree = "<group>"; };
+		A00923422594BD6A0077776A /* ZcustomUIClientSDKVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZcustomUIClientSDKVC.swift; sourceTree = "<group>"; };
+		A00923502594C2590077776A /* ZDefaultStartMeetingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDefaultStartMeetingVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00922EE25948A300077776A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00922E825948A300077776A = {
+			isa = PBXGroup;
+			children = (
+				A00922F325948A300077776A /* zoomcustomUidemo */,
+				A00922F225948A300077776A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00922F225948A300077776A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00922F125948A300077776A /* zoomcustomUidemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00922F325948A300077776A /* zoomcustomUidemo */ = {
+			isa = PBXGroup;
+			children = (
+				A009233F2594A1760077776A /* HelperClass */,
+				A00922F425948A300077776A /* AppDelegate.swift */,
+				A00923192594952E0077776A /* GenralSetting.swift */,
+				A00922F825948A300077776A /* ViewController.swift */,
+				A009230C25948D3B0077776A /* ZjoinmeetingVC.swift */,
+				A009230F25948D490077776A /* ZstartmeetingVC.swift */,
+				A0092314259491600077776A /* ZmeetingroomVC.swift */,
+				A009233B2594A01C0077776A /* ZCustomUIjoinmeetingRoomVC.swift */,
+				A009233D2594A0340077776A /* ZDefaultUIjoinmeetingRoomVC.swift */,
+				A00923502594C2590077776A /* ZDefaultStartMeetingVC.swift */,
+				A00923422594BD6A0077776A /* ZcustomUIClientSDKVC.swift */,
+				A00922FA25948A300077776A /* Main.storyboard */,
+				A00922FD25948A310077776A /* Assets.xcassets */,
+				A00922FF25948A310077776A /* LaunchScreen.storyboard */,
+				A009230225948A310077776A /* Info.plist */,
+			);
+			path = zoomcustomUidemo;
+			sourceTree = "<group>";
+		};
+		A009233F2594A1760077776A /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				A00923402594A1880077776A /* toastVC.swift */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00922F025948A300077776A /* zoomcustomUidemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A009230525948A310077776A /* Build configuration list for PBXNativeTarget "zoomcustomUidemo" */;
+			buildPhases = (
+				A00922ED25948A300077776A /* Sources */,
+				A00922EE25948A300077776A /* Frameworks */,
+				A00922EF25948A300077776A /* Resources */,
+				A009232D25949AEA0077776A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zoomcustomUidemo;
+			productName = zoomcustomUidemo;
+			productReference = A00922F125948A300077776A /* zoomcustomUidemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00922E925948A300077776A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A00922F025948A300077776A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = A00922EC25948A300077776A /* Build configuration list for PBXProject "zoomcustomUidemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00922E825948A300077776A;
+			productRefGroup = A00922F225948A300077776A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00922F025948A300077776A /* zoomcustomUidemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00922EF25948A300077776A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A009230125948A310077776A /* LaunchScreen.storyboard in Resources */,
+				A00922FE25948A310077776A /* Assets.xcassets in Resources */,
+				A00922FC25948A300077776A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00922ED25948A300077776A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A009233E2594A0340077776A /* ZDefaultUIjoinmeetingRoomVC.swift in Sources */,
+				A0092315259491600077776A /* ZmeetingroomVC.swift in Sources */,
+				A00923432594BD6A0077776A /* ZcustomUIClientSDKVC.swift in Sources */,
+				A00923412594A1880077776A /* toastVC.swift in Sources */,
+				A00922F925948A300077776A /* ViewController.swift in Sources */,
+				A009233C2594A01C0077776A /* ZCustomUIjoinmeetingRoomVC.swift in Sources */,
+				A009231A2594952E0077776A /* GenralSetting.swift in Sources */,
+				A009231025948D490077776A /* ZstartmeetingVC.swift in Sources */,
+				A00923512594C2590077776A /* ZDefaultStartMeetingVC.swift in Sources */,
+				A009230D25948D3B0077776A /* ZjoinmeetingVC.swift in Sources */,
+				A00922F525948A300077776A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A00922FA25948A300077776A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00922FB25948A300077776A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00922FF25948A310077776A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A009230025948A310077776A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A009230325948A310077776A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A009230425948A310077776A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A009230625948A310077776A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 94578VNHQR;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zoomcustomUidemo/zoomSdk",
+				);
+				INFOPLIST_FILE = zoomcustomUidemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techuzinfoweb.zoomcustomUidemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = wildcareMahavir;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A009230725948A310077776A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 94578VNHQR;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zoomcustomUidemo/zoomSdk",
+				);
+				INFOPLIST_FILE = zoomcustomUidemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techuzinfoweb.zoomcustomUidemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = wildcareMahavir;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00922EC25948A300077776A /* Build configuration list for PBXProject "zoomcustomUidemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A009230325948A310077776A /* Debug */,
+				A009230425948A310077776A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A009230525948A310077776A /* Build configuration list for PBXNativeTarget "zoomcustomUidemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A009230625948A310077776A /* Debug */,
+				A009230725948A310077776A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00922E925948A300077776A /* Project object */;
+}
